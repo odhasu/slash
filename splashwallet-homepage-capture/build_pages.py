@@ -45,11 +45,13 @@ def build_pages(output, base_path, origin):
         return text.replace(CAPTURE_ORIGIN + "/", hosted_origin + "/")
 
     def flight_row(row):
-        if row.startswith('0:{"P":null,"c":["",'):
+        if base_path and row.startswith('0:{"P":null,"c":["",'):
             row = row.replace('"c":["",', f'"c":["",{json.dumps(base_path[1:])},', 1)
         return page_urls(row)
 
     def javascript(text, name):
+        if not base_path:
+            return text
         if name.startswith("turbopack-"):
             text = replace_once(text, ':"/_next/",P=new Map', f':{json.dumps(base_path + "/_next/")},P=new Map', name)
         elif name == "14x-gv6879ywq.js":
@@ -97,7 +99,7 @@ def build_pages(output, base_path, origin):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Export Slash for GitHub Pages.")
+    parser = argparse.ArgumentParser(description="Export Slash for static hosting.")
     parser.add_argument("output", type=Path)
     parser.add_argument("--base-path", default="/slash")
     parser.add_argument("--origin", default="https://odhasu.github.io")
@@ -105,8 +107,8 @@ def main():
     destination = args.output.resolve()
     if destination.is_relative_to(SOURCE) or destination.exists() and any(destination.iterdir()):
         parser.error("Use a new or empty output folder outside the capture.")
-    if not re.fullmatch(r"/[\w-]+", args.base_path):
-        parser.error("Base path must be one slash followed by the repository name.")
+    if args.base_path and not re.fullmatch(r"/[\w-]+", args.base_path):
+        parser.error("Base path must be empty or one slash followed by the repository name.")
     origin = urlsplit(args.origin)
     if origin.scheme not in {"http", "https"} or not origin.netloc or origin.path not in {"", "/"}:
         parser.error("Origin must include the scheme and hostname.")
