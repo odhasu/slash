@@ -34,6 +34,7 @@ BRANDED_SCRIPTS = frozenset({
 MOTION_ASSETS = (
     '<link rel="stylesheet" href="/slash-theme.css"/>'
     '<script src="/slash-gradients.js" async=""></script>'
+    '<script src="/slash-scroll.js" defer=""></script>'
 )
 
 
