@@ -1,0 +1,36 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/3--whd_-q6un5.js"
+5:"/_next/static/chunks/0bd9q0r1wq843.js"
+6:I[39756,["$4","$5"],"default"]
+7:I[37457,["$4","$5"],"default"]
+e:"/_next/static/chunks/2xxbkt3ign116.js"
+f:"/_next/static/chunks/1cjwn-_bnfxk1.js"
+10:"/_next/static/chunks/1w2y-5yv52td4.js"
+11:"/_next/static/chunks/2c5xf166t3uc-.js"
+12:"/_next/static/chunks/1ir9-on19rc91.js"
+13:"/_next/static/chunks/1gbziif24tn_p.js"
+14:I[79212,["$4","$5","$e","$f","$10","$11","$12","$13"],"LegalDocument"]
+15:I[97367,["$4","$5"],"OutletBoundary"]
+16:"$Sreact.suspense"
+19:"ViewportBoundary"
+1a:I[97367,["$4","$5"],"$19"]
+1b:"MetadataBoundary"
+1c:I[97367,["$4","$5"],"$1b"]
+1d:I[27201,["$4","$5"],"IconMark"]
+9:X
+9:C
+a:X
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","main",null,{"className":"relative flex w-full flex-col bg-cream","children":["$","$L14",null,{"initialDoc":"privacy"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/1ir9-on19rc91.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/1gbziif24tn_p.js","async":true}]],["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]]}],"p":"$@18","v":null,"s":"$a"}}]]
+b:[["children",{"s":"privacy-policy","h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@c","v":"$9","s":"$a"},"c":"$Qd"}]]
+2:[["children",{"s":"legal","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"(site)","c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fcf8f1"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Privacy Policy — Splash"}],["$","meta","1",{"name":"description","content":"Splash Privacy Policy."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","link","3",{"rel":"canonical","href":"https://splashwallet.xyz/legal/privacy-policy/"}],["$","meta","4",{"property":"og:title","content":"Privacy Policy — Splash"}],["$","meta","5",{"property":"og:description","content":"Splash Privacy Policy."}],["$","meta","6",{"property":"og:url","content":"https://splashwallet.xyz/legal/privacy-policy/"}],["$","meta","7",{"property":"og:site_name","content":"Splash"}],["$","meta","8",{"property":"og:image","content":"https://splashwallet.xyz/creator/splash-app-icon.png"}],["$","meta","9",{"property":"og:image:alt","content":"Splash app icon"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Privacy Policy — Splash"}],["$","meta","13",{"name":"twitter:description","content":"Splash Privacy Policy."}],["$","meta","14",{"name":"twitter:image","content":"https://splashwallet.xyz/creator/splash-app-icon.png"}],["$","meta","15",{"name":"twitter:image:alt","content":"Splash app icon"}],["$","link","16",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L1d","17",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$a"}},"a":"$@1f","u":"$@20","b":"Crr1UG-M6EwBHeddagjcl"}
+17:null
+20:true
+a:300
+a:C
+1f:0
+c:"$undefined"
+8:"$undefined"
+1e:"$undefined"
+18:"$undefined"

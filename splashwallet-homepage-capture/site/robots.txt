@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://splashwallet.xyz/sitemap.xml

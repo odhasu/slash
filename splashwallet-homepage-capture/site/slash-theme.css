@@ -1,0 +1,48 @@
+[data-section="hero"] a[href="/product/"]:has(.sr-only) {
+  display: none;
+}
+
+header a[aria-label="Slash home"] svg {
+  background: currentColor;
+  mask: url("/slash-mark.svg") center / contain no-repeat;
+}
+
+header a[aria-label="Slash home"] svg > *,
+[data-section="footer"] svg[aria-label="slash"] > * {
+  opacity: 0;
+}
+
+[data-section="footer"] [style*="--logo-mask"] {
+  --logo-mask: url("/slash-wordmark.svg") !important;
+}
+
+[data-section="footer"] svg[aria-label="slash"] {
+  background: currentColor;
+  mask: url("/slash-wordmark.svg") center / contain no-repeat;
+}
+
+:where([style*="background-image:linear-gradient"][style*="#c7c7c7"]) {
+  position: relative;
+  background-size: 115% 115%;
+}
+
+:is([data-swirl], [style*="background-image:linear-gradient"][style*="#c7c7c7"])::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 245px 195px at var(--slash-light-x, 50%) var(--slash-light-y, 50%),
+    rgb(255 255 255 / 30%) 0%,
+    rgb(255 255 255 / 10%) 46%,
+    transparent 100%
+  );
+  opacity: var(--slash-light-opacity, 0);
+  transition: opacity 500ms ease;
+}
+
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse) {
+  :is([data-swirl], [style*="background-image:linear-gradient"][style*="#c7c7c7"])::after {
+    display: none;
+  }
+}

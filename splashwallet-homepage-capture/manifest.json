@@ -1,0 +1,1914 @@
+{
+  "source": "https://splashwallet.xyz/",
+  "pages": [
+    {
+      "url": "https://splashwallet.xyz/",
+      "final_url": "https://splashwallet.xyz/",
+      "status": 200,
+      "title": "Splash \u2014 Trade every market. Follow the best.",
+      "local_path": "/"
+    },
+    {
+      "url": "https://splashwallet.xyz/product/",
+      "final_url": "https://splashwallet.xyz/product/",
+      "status": 200,
+      "title": "Product \u2014 Splash",
+      "local_path": "/product/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/",
+      "final_url": "https://splashwallet.xyz/markets/",
+      "status": 200,
+      "title": "Every market \u2014 Splash",
+      "local_path": "/markets/"
+    },
+    {
+      "url": "https://splashwallet.xyz/faq/",
+      "final_url": "https://splashwallet.xyz/faq/",
+      "status": 200,
+      "title": "FAQ \u2014 Splash",
+      "local_path": "/faq/"
+    },
+    {
+      "url": "https://splashwallet.xyz/support/",
+      "final_url": "https://splashwallet.xyz/support/",
+      "status": 200,
+      "title": "Support \u2014 Splash",
+      "local_path": "/support/"
+    },
+    {
+      "url": "https://splashwallet.xyz/android/",
+      "final_url": "https://splashwallet.xyz/android/",
+      "status": 200,
+      "title": "Android \u2014 Splash",
+      "local_path": "/android/"
+    },
+    {
+      "url": "https://splashwallet.xyz/brand/",
+      "final_url": "https://splashwallet.xyz/brand/",
+      "status": 200,
+      "title": "Brand kit \u00b7 Splash",
+      "local_path": "/brand/"
+    },
+    {
+      "url": "https://splashwallet.xyz/creator-kit/",
+      "final_url": "https://splashwallet.xyz/creator-kit/",
+      "status": 200,
+      "title": "Creator kit \u2014 Splash",
+      "local_path": "/creator-kit/"
+    },
+    {
+      "url": "https://splashwallet.xyz/legal/",
+      "final_url": "https://splashwallet.xyz/legal/",
+      "status": 200,
+      "title": "Legal \u2014 Splash",
+      "local_path": "/legal/"
+    },
+    {
+      "url": "https://splashwallet.xyz/legal/privacy-policy/",
+      "final_url": "https://splashwallet.xyz/legal/privacy-policy/",
+      "status": 200,
+      "title": "Privacy Policy \u2014 Splash",
+      "local_path": "/legal/privacy-policy/"
+    },
+    {
+      "url": "https://splashwallet.xyz/legal/term-of-service/",
+      "final_url": "https://splashwallet.xyz/legal/term-of-service/",
+      "status": 200,
+      "title": "Terms of Service \u2014 Splash",
+      "local_path": "/legal/term-of-service/"
+    },
+    {
+      "url": "https://splashwallet.xyz/learn/hyperliquid-mobile/",
+      "final_url": "https://splashwallet.xyz/learn/hyperliquid-mobile/",
+      "status": 200,
+      "title": "Hyperliquid Mobile: Trade on Hyperliquid From Your Phone \u2014 Splash",
+      "local_path": "/learn/hyperliquid-mobile/"
+    },
+    {
+      "url": "https://splashwallet.xyz/learn/hyperliquid-mobile-app/",
+      "final_url": "https://splashwallet.xyz/learn/hyperliquid-mobile-app/",
+      "status": 200,
+      "title": "Hyperliquid Mobile App: iOS, Android, and Browser Options \u2014 Splash",
+      "local_path": "/learn/hyperliquid-mobile-app/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/paxg/",
+      "final_url": "https://splashwallet.xyz/markets/paxg/",
+      "status": 200,
+      "title": "Pax Gold \u2014 Splash",
+      "local_path": "/markets/paxg/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pump/",
+      "final_url": "https://splashwallet.xyz/markets/pump/",
+      "status": 200,
+      "title": "PUMP \u2014 Splash",
+      "local_path": "/markets/pump/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ada/",
+      "final_url": "https://splashwallet.xyz/markets/ada/",
+      "status": 200,
+      "title": "ADA \u2014 Splash",
+      "local_path": "/markets/ada/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/apt/",
+      "final_url": "https://splashwallet.xyz/markets/apt/",
+      "status": 200,
+      "title": "APT \u2014 Splash",
+      "local_path": "/markets/apt/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/atom/",
+      "final_url": "https://splashwallet.xyz/markets/atom/",
+      "status": 200,
+      "title": "ATOM \u2014 Splash",
+      "local_path": "/markets/atom/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/avax/",
+      "final_url": "https://splashwallet.xyz/markets/avax/",
+      "status": 200,
+      "title": "AVAX \u2014 Splash",
+      "local_path": "/markets/avax/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bnb/",
+      "final_url": "https://splashwallet.xyz/markets/bnb/",
+      "status": 200,
+      "title": "BNB \u2014 Splash",
+      "local_path": "/markets/bnb/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/btc/",
+      "final_url": "https://splashwallet.xyz/markets/btc/",
+      "status": 200,
+      "title": "Bitcoin \u2014 Splash",
+      "local_path": "/markets/btc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/doge/",
+      "final_url": "https://splashwallet.xyz/markets/doge/",
+      "status": 200,
+      "title": "Dogecoin \u2014 Splash",
+      "local_path": "/markets/doge/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dot/",
+      "final_url": "https://splashwallet.xyz/markets/dot/",
+      "status": 200,
+      "title": "DOT \u2014 Splash",
+      "local_path": "/markets/dot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ena-spot/",
+      "final_url": "https://splashwallet.xyz/markets/ena-spot/",
+      "status": 200,
+      "title": "ENA \u2014 Splash",
+      "local_path": "/markets/ena-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/eth/",
+      "final_url": "https://splashwallet.xyz/markets/eth/",
+      "status": 200,
+      "title": "Ethereum \u2014 Splash",
+      "local_path": "/markets/eth/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hype/",
+      "final_url": "https://splashwallet.xyz/markets/hype/",
+      "status": 200,
+      "title": "HYPE \u2014 Splash",
+      "local_path": "/markets/hype/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hype-spot/",
+      "final_url": "https://splashwallet.xyz/markets/hype-spot/",
+      "status": 200,
+      "title": "HYPE \u2014 Splash",
+      "local_path": "/markets/hype-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/near/",
+      "final_url": "https://splashwallet.xyz/markets/near/",
+      "status": 200,
+      "title": "NEAR \u2014 Splash",
+      "local_path": "/markets/near/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sol/",
+      "final_url": "https://splashwallet.xyz/markets/sol/",
+      "status": 200,
+      "title": "Solana \u2014 Splash",
+      "local_path": "/markets/sol/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sui/",
+      "final_url": "https://splashwallet.xyz/markets/sui/",
+      "status": 200,
+      "title": "SUI \u2014 Splash",
+      "local_path": "/markets/sui/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ton/",
+      "final_url": "https://splashwallet.xyz/markets/ton/",
+      "status": 200,
+      "title": "TON \u2014 Splash",
+      "local_path": "/markets/ton/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/trx/",
+      "final_url": "https://splashwallet.xyz/markets/trx/",
+      "status": 200,
+      "title": "TRX \u2014 Splash",
+      "local_path": "/markets/trx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ubtc-spot/",
+      "final_url": "https://splashwallet.xyz/markets/ubtc-spot/",
+      "status": 200,
+      "title": "BTC \u2014 Splash",
+      "local_path": "/markets/ubtc-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ueth-spot/",
+      "final_url": "https://splashwallet.xyz/markets/ueth-spot/",
+      "status": 200,
+      "title": "ETH \u2014 Splash",
+      "local_path": "/markets/ueth-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/umon-spot/",
+      "final_url": "https://splashwallet.xyz/markets/umon-spot/",
+      "status": 200,
+      "title": "MON \u2014 Splash",
+      "local_path": "/markets/umon-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usol-spot/",
+      "final_url": "https://splashwallet.xyz/markets/usol-spot/",
+      "status": 200,
+      "title": "SOL \u2014 Splash",
+      "local_path": "/markets/usol-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/uuuspx-spot/",
+      "final_url": "https://splashwallet.xyz/markets/uuuspx-spot/",
+      "status": 200,
+      "title": "SPX \u2014 Splash",
+      "local_path": "/markets/uuuspx-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/uxpl-spot/",
+      "final_url": "https://splashwallet.xyz/markets/uxpl-spot/",
+      "status": 200,
+      "title": "XPL \u2014 Splash",
+      "local_path": "/markets/uxpl-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/uzec-spot/",
+      "final_url": "https://splashwallet.xyz/markets/uzec-spot/",
+      "status": 200,
+      "title": "ZEC \u2014 Splash",
+      "local_path": "/markets/uzec-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xrp/",
+      "final_url": "https://splashwallet.xyz/markets/xrp/",
+      "status": 200,
+      "title": "XRP \u2014 Splash",
+      "local_path": "/markets/xrp/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/aaoi/",
+      "final_url": "https://splashwallet.xyz/markets/aaoi/",
+      "status": 200,
+      "title": "AAOI \u2014 Splash",
+      "local_path": "/markets/aaoi/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/aapl/",
+      "final_url": "https://splashwallet.xyz/markets/aapl/",
+      "status": 200,
+      "title": "Apple \u2014 Splash",
+      "local_path": "/markets/aapl/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/amat/",
+      "final_url": "https://splashwallet.xyz/markets/amat/",
+      "status": 200,
+      "title": "AMAT \u2014 Splash",
+      "local_path": "/markets/amat/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/amd/",
+      "final_url": "https://splashwallet.xyz/markets/amd/",
+      "status": 200,
+      "title": "AMD \u2014 Splash",
+      "local_path": "/markets/amd/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/amzn/",
+      "final_url": "https://splashwallet.xyz/markets/amzn/",
+      "status": 200,
+      "title": "AMZN \u2014 Splash",
+      "local_path": "/markets/amzn/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/arm/",
+      "final_url": "https://splashwallet.xyz/markets/arm/",
+      "status": 200,
+      "title": "ARM \u2014 Splash",
+      "local_path": "/markets/arm/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/asml/",
+      "final_url": "https://splashwallet.xyz/markets/asml/",
+      "status": 200,
+      "title": "ASML \u2014 Splash",
+      "local_path": "/markets/asml/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/avgo/",
+      "final_url": "https://splashwallet.xyz/markets/avgo/",
+      "status": 200,
+      "title": "AVGO \u2014 Splash",
+      "local_path": "/markets/avgo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/baba/",
+      "final_url": "https://splashwallet.xyz/markets/baba/",
+      "status": 200,
+      "title": "BABA \u2014 Splash",
+      "local_path": "/markets/baba/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bb/",
+      "final_url": "https://splashwallet.xyz/markets/bb/",
+      "status": 200,
+      "title": "BB \u2014 Splash",
+      "local_path": "/markets/bb/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/be/",
+      "final_url": "https://splashwallet.xyz/markets/be/",
+      "status": 200,
+      "title": "BE \u2014 Splash",
+      "local_path": "/markets/be/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bird/",
+      "final_url": "https://splashwallet.xyz/markets/bird/",
+      "status": 200,
+      "title": "BIRD \u2014 Splash",
+      "local_path": "/markets/bird/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bot/",
+      "final_url": "https://splashwallet.xyz/markets/bot/",
+      "status": 200,
+      "title": "BOT \u2014 Splash",
+      "local_path": "/markets/bot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bx/",
+      "final_url": "https://splashwallet.xyz/markets/bx/",
+      "status": 200,
+      "title": "BX \u2014 Splash",
+      "local_path": "/markets/bx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/cbrs/",
+      "final_url": "https://splashwallet.xyz/markets/cbrs/",
+      "status": 200,
+      "title": "CBRS \u2014 Splash",
+      "local_path": "/markets/cbrs/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/coin/",
+      "final_url": "https://splashwallet.xyz/markets/coin/",
+      "status": 200,
+      "title": "COIN \u2014 Splash",
+      "local_path": "/markets/coin/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/cost/",
+      "final_url": "https://splashwallet.xyz/markets/cost/",
+      "status": 200,
+      "title": "COST \u2014 Splash",
+      "local_path": "/markets/cost/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/crcl/",
+      "final_url": "https://splashwallet.xyz/markets/crcl/",
+      "status": 200,
+      "title": "CRCL \u2014 Splash",
+      "local_path": "/markets/crcl/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/crwd/",
+      "final_url": "https://splashwallet.xyz/markets/crwd/",
+      "status": 200,
+      "title": "CRWD \u2014 Splash",
+      "local_path": "/markets/crwd/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/crwv/",
+      "final_url": "https://splashwallet.xyz/markets/crwv/",
+      "status": 200,
+      "title": "CRWV \u2014 Splash",
+      "local_path": "/markets/crwv/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/cxmt/",
+      "final_url": "https://splashwallet.xyz/markets/cxmt/",
+      "status": 200,
+      "title": "CXMT \u2014 Splash",
+      "local_path": "/markets/cxmt/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dell/",
+      "final_url": "https://splashwallet.xyz/markets/dell/",
+      "status": 200,
+      "title": "DELL \u2014 Splash",
+      "local_path": "/markets/dell/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dkng/",
+      "final_url": "https://splashwallet.xyz/markets/dkng/",
+      "status": 200,
+      "title": "DKNG \u2014 Splash",
+      "local_path": "/markets/dkng/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ebay/",
+      "final_url": "https://splashwallet.xyz/markets/ebay/",
+      "status": 200,
+      "title": "EBAY \u2014 Splash",
+      "local_path": "/markets/ebay/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/gev/",
+      "final_url": "https://splashwallet.xyz/markets/gev/",
+      "status": 200,
+      "title": "GEV \u2014 Splash",
+      "local_path": "/markets/gev/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/gigadev/",
+      "final_url": "https://splashwallet.xyz/markets/gigadev/",
+      "status": 200,
+      "title": "GIGADEV \u2014 Splash",
+      "local_path": "/markets/gigadev/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/gme/",
+      "final_url": "https://splashwallet.xyz/markets/gme/",
+      "status": 200,
+      "title": "GME \u2014 Splash",
+      "local_path": "/markets/gme/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/googl/",
+      "final_url": "https://splashwallet.xyz/markets/googl/",
+      "status": 200,
+      "title": "GOOGL \u2014 Splash",
+      "local_path": "/markets/googl/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hims/",
+      "final_url": "https://splashwallet.xyz/markets/hims/",
+      "status": 200,
+      "title": "HIMS \u2014 Splash",
+      "local_path": "/markets/hims/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hood/",
+      "final_url": "https://splashwallet.xyz/markets/hood/",
+      "status": 200,
+      "title": "HOOD \u2014 Splash",
+      "local_path": "/markets/hood/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hyundai/",
+      "final_url": "https://splashwallet.xyz/markets/hyundai/",
+      "status": 200,
+      "title": "HYUNDAI \u2014 Splash",
+      "local_path": "/markets/hyundai/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ibm/",
+      "final_url": "https://splashwallet.xyz/markets/ibm/",
+      "status": 200,
+      "title": "IBM \u2014 Splash",
+      "local_path": "/markets/ibm/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/intc/",
+      "final_url": "https://splashwallet.xyz/markets/intc/",
+      "status": 200,
+      "title": "INTC \u2014 Splash",
+      "local_path": "/markets/intc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/iren/",
+      "final_url": "https://splashwallet.xyz/markets/iren/",
+      "status": 200,
+      "title": "IREN \u2014 Splash",
+      "local_path": "/markets/iren/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kioxia/",
+      "final_url": "https://splashwallet.xyz/markets/kioxia/",
+      "status": 200,
+      "title": "KIOXIA \u2014 Splash",
+      "local_path": "/markets/kioxia/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/lite/",
+      "final_url": "https://splashwallet.xyz/markets/lite/",
+      "status": 200,
+      "title": "LITE \u2014 Splash",
+      "local_path": "/markets/lite/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/lly/",
+      "final_url": "https://splashwallet.xyz/markets/lly/",
+      "status": 200,
+      "title": "LLY \u2014 Splash",
+      "local_path": "/markets/lly/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/lyte/",
+      "final_url": "https://splashwallet.xyz/markets/lyte/",
+      "status": 200,
+      "title": "LYTE \u2014 Splash",
+      "local_path": "/markets/lyte/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/meta/",
+      "final_url": "https://splashwallet.xyz/markets/meta/",
+      "status": 200,
+      "title": "META \u2014 Splash",
+      "local_path": "/markets/meta/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/minimax/",
+      "final_url": "https://splashwallet.xyz/markets/minimax/",
+      "status": 200,
+      "title": "MINIMAX \u2014 Splash",
+      "local_path": "/markets/minimax/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mrna/",
+      "final_url": "https://splashwallet.xyz/markets/mrna/",
+      "status": 200,
+      "title": "MRNA \u2014 Splash",
+      "local_path": "/markets/mrna/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mrvl/",
+      "final_url": "https://splashwallet.xyz/markets/mrvl/",
+      "status": 200,
+      "title": "MRVL \u2014 Splash",
+      "local_path": "/markets/mrvl/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/msft/",
+      "final_url": "https://splashwallet.xyz/markets/msft/",
+      "status": 200,
+      "title": "Microsoft \u2014 Splash",
+      "local_path": "/markets/msft/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mstr/",
+      "final_url": "https://splashwallet.xyz/markets/mstr/",
+      "status": 200,
+      "title": "MSTR \u2014 Splash",
+      "local_path": "/markets/mstr/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mu/",
+      "final_url": "https://splashwallet.xyz/markets/mu/",
+      "status": 200,
+      "title": "MU \u2014 Splash",
+      "local_path": "/markets/mu/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/nbis/",
+      "final_url": "https://splashwallet.xyz/markets/nbis/",
+      "status": 200,
+      "title": "NBIS \u2014 Splash",
+      "local_path": "/markets/nbis/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/net/",
+      "final_url": "https://splashwallet.xyz/markets/net/",
+      "status": 200,
+      "title": "NET \u2014 Splash",
+      "local_path": "/markets/net/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/nflx/",
+      "final_url": "https://splashwallet.xyz/markets/nflx/",
+      "status": 200,
+      "title": "NFLX \u2014 Splash",
+      "local_path": "/markets/nflx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/nok/",
+      "final_url": "https://splashwallet.xyz/markets/nok/",
+      "status": 200,
+      "title": "NOK \u2014 Splash",
+      "local_path": "/markets/nok/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/now/",
+      "final_url": "https://splashwallet.xyz/markets/now/",
+      "status": 200,
+      "title": "NOW \u2014 Splash",
+      "local_path": "/markets/now/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/nvda/",
+      "final_url": "https://splashwallet.xyz/markets/nvda/",
+      "status": 200,
+      "title": "Nvidia \u2014 Splash",
+      "local_path": "/markets/nvda/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/orcl/",
+      "final_url": "https://splashwallet.xyz/markets/orcl/",
+      "status": 200,
+      "title": "ORCL \u2014 Splash",
+      "local_path": "/markets/orcl/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pltr/",
+      "final_url": "https://splashwallet.xyz/markets/pltr/",
+      "status": 200,
+      "title": "PLTR \u2014 Splash",
+      "local_path": "/markets/pltr/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/purrdat/",
+      "final_url": "https://splashwallet.xyz/markets/purrdat/",
+      "status": 200,
+      "title": "PURRDAT \u2014 Splash",
+      "local_path": "/markets/purrdat/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/qcom/",
+      "final_url": "https://splashwallet.xyz/markets/qcom/",
+      "status": 200,
+      "title": "QCOM \u2014 Splash",
+      "local_path": "/markets/qcom/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/qnt/",
+      "final_url": "https://splashwallet.xyz/markets/qnt/",
+      "status": 200,
+      "title": "QNT \u2014 Splash",
+      "local_path": "/markets/qnt/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/rddt/",
+      "final_url": "https://splashwallet.xyz/markets/rddt/",
+      "status": 200,
+      "title": "RDDT \u2014 Splash",
+      "local_path": "/markets/rddt/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/rivn/",
+      "final_url": "https://splashwallet.xyz/markets/rivn/",
+      "status": 200,
+      "title": "RIVN \u2014 Splash",
+      "local_path": "/markets/rivn/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/rklb/",
+      "final_url": "https://splashwallet.xyz/markets/rklb/",
+      "status": 200,
+      "title": "RKLB \u2014 Splash",
+      "local_path": "/markets/rklb/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/shaz/",
+      "final_url": "https://splashwallet.xyz/markets/shaz/",
+      "status": 200,
+      "title": "SHAZ \u2014 Splash",
+      "local_path": "/markets/shaz/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/shein/",
+      "final_url": "https://splashwallet.xyz/markets/shein/",
+      "status": 200,
+      "title": "SHEIN \u2014 Splash",
+      "local_path": "/markets/shein/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/skhx/",
+      "final_url": "https://splashwallet.xyz/markets/skhx/",
+      "status": 200,
+      "title": "SKHX \u2014 Splash",
+      "local_path": "/markets/skhx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/skhy/",
+      "final_url": "https://splashwallet.xyz/markets/skhy/",
+      "status": 200,
+      "title": "SKHY \u2014 Splash",
+      "local_path": "/markets/skhy/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/smsn/",
+      "final_url": "https://splashwallet.xyz/markets/smsn/",
+      "status": 200,
+      "title": "SMSN \u2014 Splash",
+      "local_path": "/markets/smsn/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sndk/",
+      "final_url": "https://splashwallet.xyz/markets/sndk/",
+      "status": 200,
+      "title": "SNDK \u2014 Splash",
+      "local_path": "/markets/sndk/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/softbank/",
+      "final_url": "https://splashwallet.xyz/markets/softbank/",
+      "status": 200,
+      "title": "SOFTBANK \u2014 Splash",
+      "local_path": "/markets/softbank/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/spx/",
+      "final_url": "https://splashwallet.xyz/markets/spx/",
+      "status": 200,
+      "title": "S&P 500 \u2014 Splash",
+      "local_path": "/markets/spx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/spcx/",
+      "final_url": "https://splashwallet.xyz/markets/spcx/",
+      "status": 200,
+      "title": "SPCX \u2014 Splash",
+      "local_path": "/markets/spcx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/strc/",
+      "final_url": "https://splashwallet.xyz/markets/strc/",
+      "status": 200,
+      "title": "STRC \u2014 Splash",
+      "local_path": "/markets/strc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/tsla/",
+      "final_url": "https://splashwallet.xyz/markets/tsla/",
+      "status": 200,
+      "title": "Tesla \u2014 Splash",
+      "local_path": "/markets/tsla/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/tsm/",
+      "final_url": "https://splashwallet.xyz/markets/tsm/",
+      "status": 200,
+      "title": "TSM \u2014 Splash",
+      "local_path": "/markets/tsm/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/unitree/",
+      "final_url": "https://splashwallet.xyz/markets/unitree/",
+      "status": 200,
+      "title": "UNITREE \u2014 Splash",
+      "local_path": "/markets/unitree/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usar/",
+      "final_url": "https://splashwallet.xyz/markets/usar/",
+      "status": 200,
+      "title": "USAR \u2014 Splash",
+      "local_path": "/markets/usar/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/wdc/",
+      "final_url": "https://splashwallet.xyz/markets/wdc/",
+      "status": 200,
+      "title": "WDC \u2014 Splash",
+      "local_path": "/markets/wdc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ndx/",
+      "final_url": "https://splashwallet.xyz/markets/ndx/",
+      "status": 200,
+      "title": "XYZ100 \u2014 Splash",
+      "local_path": "/markets/ndx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/zhipu/",
+      "final_url": "https://splashwallet.xyz/markets/zhipu/",
+      "status": 200,
+      "title": "ZHIPU \u2014 Splash",
+      "local_path": "/markets/zhipu/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/zm/",
+      "final_url": "https://splashwallet.xyz/markets/zm/",
+      "status": 200,
+      "title": "ZM \u2014 Splash",
+      "local_path": "/markets/zm/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/brent/",
+      "final_url": "https://splashwallet.xyz/markets/brent/",
+      "status": 200,
+      "title": "Brent crude \u2014 Splash",
+      "local_path": "/markets/brent/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/wti/",
+      "final_url": "https://splashwallet.xyz/markets/wti/",
+      "status": 200,
+      "title": "Crude oil \u2014 Splash",
+      "local_path": "/markets/wti/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/copper/",
+      "final_url": "https://splashwallet.xyz/markets/copper/",
+      "status": 200,
+      "title": "COPPER \u2014 Splash",
+      "local_path": "/markets/copper/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dram/",
+      "final_url": "https://splashwallet.xyz/markets/dram/",
+      "status": 200,
+      "title": "DRAM \u2014 Splash",
+      "local_path": "/markets/dram/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xau/",
+      "final_url": "https://splashwallet.xyz/markets/xau/",
+      "status": 200,
+      "title": "Gold \u2014 Splash",
+      "local_path": "/markets/xau/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/natgas/",
+      "final_url": "https://splashwallet.xyz/markets/natgas/",
+      "status": 200,
+      "title": "Natural gas \u2014 Splash",
+      "local_path": "/markets/natgas/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/palladium/",
+      "final_url": "https://splashwallet.xyz/markets/palladium/",
+      "status": 200,
+      "title": "PALLADIUM \u2014 Splash",
+      "local_path": "/markets/palladium/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/platinum/",
+      "final_url": "https://splashwallet.xyz/markets/platinum/",
+      "status": 200,
+      "title": "PLATINUM \u2014 Splash",
+      "local_path": "/markets/platinum/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xag/",
+      "final_url": "https://splashwallet.xyz/markets/xag/",
+      "status": 200,
+      "title": "Silver \u2014 Splash",
+      "local_path": "/markets/xag/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/urnm/",
+      "final_url": "https://splashwallet.xyz/markets/urnm/",
+      "status": 200,
+      "title": "URNM \u2014 Splash",
+      "local_path": "/markets/urnm/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xaut0-spot/",
+      "final_url": "https://splashwallet.xyz/markets/xaut0-spot/",
+      "status": 200,
+      "title": "XAUT0 \u2014 Splash",
+      "local_path": "/markets/xaut0-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xle/",
+      "final_url": "https://splashwallet.xyz/markets/xle/",
+      "status": 200,
+      "title": "XLE \u2014 Splash",
+      "local_path": "/markets/xle/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ewj/",
+      "final_url": "https://splashwallet.xyz/markets/ewj/",
+      "status": 200,
+      "title": "EWJ \u2014 Splash",
+      "local_path": "/markets/ewj/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ewt/",
+      "final_url": "https://splashwallet.xyz/markets/ewt/",
+      "status": 200,
+      "title": "EWT \u2014 Splash",
+      "local_path": "/markets/ewt/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ewy/",
+      "final_url": "https://splashwallet.xyz/markets/ewy/",
+      "status": 200,
+      "title": "EWY \u2014 Splash",
+      "local_path": "/markets/ewy/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ewz/",
+      "final_url": "https://splashwallet.xyz/markets/ewz/",
+      "status": 200,
+      "title": "EWZ \u2014 Splash",
+      "local_path": "/markets/ewz/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/jp225/",
+      "final_url": "https://splashwallet.xyz/markets/jp225/",
+      "status": 200,
+      "title": "JP225 \u2014 Splash",
+      "local_path": "/markets/jp225/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/koru/",
+      "final_url": "https://splashwallet.xyz/markets/koru/",
+      "status": 200,
+      "title": "KORU \u2014 Splash",
+      "local_path": "/markets/koru/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kr200/",
+      "final_url": "https://splashwallet.xyz/markets/kr200/",
+      "status": 200,
+      "title": "KR200 \u2014 Splash",
+      "local_path": "/markets/kr200/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mags/",
+      "final_url": "https://splashwallet.xyz/markets/mags/",
+      "status": 200,
+      "title": "MAGS \u2014 Splash",
+      "local_path": "/markets/mags/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ncld/",
+      "final_url": "https://splashwallet.xyz/markets/ncld/",
+      "status": 200,
+      "title": "NCLD \u2014 Splash",
+      "local_path": "/markets/ncld/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/smh/",
+      "final_url": "https://splashwallet.xyz/markets/smh/",
+      "status": 200,
+      "title": "SMH \u2014 Splash",
+      "local_path": "/markets/smh/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/soxl/",
+      "final_url": "https://splashwallet.xyz/markets/soxl/",
+      "status": 200,
+      "title": "SOXL \u2014 Splash",
+      "local_path": "/markets/soxl/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xbi/",
+      "final_url": "https://splashwallet.xyz/markets/xbi/",
+      "status": 200,
+      "title": "XBI \u2014 Splash",
+      "local_path": "/markets/xbi/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/eurusd/",
+      "final_url": "https://splashwallet.xyz/markets/eurusd/",
+      "status": 200,
+      "title": "EUR/USD \u2014 Splash",
+      "local_path": "/markets/eurusd/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/gbpusd/",
+      "final_url": "https://splashwallet.xyz/markets/gbpusd/",
+      "status": 200,
+      "title": "GBP/USD \u2014 Splash",
+      "local_path": "/markets/gbpusd/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usdjpy/",
+      "final_url": "https://splashwallet.xyz/markets/usdjpy/",
+      "status": 200,
+      "title": "USD/JPY \u2014 Splash",
+      "local_path": "/markets/usdjpy/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/aixbt/",
+      "final_url": "https://splashwallet.xyz/markets/aixbt/",
+      "status": 200,
+      "title": "AIXBT \u2014 Splash",
+      "local_path": "/markets/aixbt/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ar/",
+      "final_url": "https://splashwallet.xyz/markets/ar/",
+      "status": 200,
+      "title": "AR \u2014 Splash",
+      "local_path": "/markets/ar/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/fet/",
+      "final_url": "https://splashwallet.xyz/markets/fet/",
+      "status": 200,
+      "title": "FET \u2014 Splash",
+      "local_path": "/markets/fet/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/grass/",
+      "final_url": "https://splashwallet.xyz/markets/grass/",
+      "status": 200,
+      "title": "GRASS \u2014 Splash",
+      "local_path": "/markets/grass/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/griffain/",
+      "final_url": "https://splashwallet.xyz/markets/griffain/",
+      "status": 200,
+      "title": "GRIFFAIN \u2014 Splash",
+      "local_path": "/markets/griffain/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/io/",
+      "final_url": "https://splashwallet.xyz/markets/io/",
+      "status": 200,
+      "title": "IO \u2014 Splash",
+      "local_path": "/markets/io/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kaito/",
+      "final_url": "https://splashwallet.xyz/markets/kaito/",
+      "status": 200,
+      "title": "KAITO \u2014 Splash",
+      "local_path": "/markets/kaito/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/render/",
+      "final_url": "https://splashwallet.xyz/markets/render/",
+      "status": 200,
+      "title": "RENDER \u2014 Splash",
+      "local_path": "/markets/render/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/tao/",
+      "final_url": "https://splashwallet.xyz/markets/tao/",
+      "status": 200,
+      "title": "TAO \u2014 Splash",
+      "local_path": "/markets/tao/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/virtual/",
+      "final_url": "https://splashwallet.xyz/markets/virtual/",
+      "status": 200,
+      "title": "VIRTUAL \u2014 Splash",
+      "local_path": "/markets/virtual/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/wld/",
+      "final_url": "https://splashwallet.xyz/markets/wld/",
+      "status": 200,
+      "title": "WLD \u2014 Splash",
+      "local_path": "/markets/wld/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/anime/",
+      "final_url": "https://splashwallet.xyz/markets/anime/",
+      "status": 200,
+      "title": "ANIME \u2014 Splash",
+      "local_path": "/markets/anime/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/baby/",
+      "final_url": "https://splashwallet.xyz/markets/baby/",
+      "status": 200,
+      "title": "BABY \u2014 Splash",
+      "local_path": "/markets/baby/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bome/",
+      "final_url": "https://splashwallet.xyz/markets/bome/",
+      "status": 200,
+      "title": "BOME \u2014 Splash",
+      "local_path": "/markets/bome/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/brett/",
+      "final_url": "https://splashwallet.xyz/markets/brett/",
+      "status": 200,
+      "title": "BRETT \u2014 Splash",
+      "local_path": "/markets/brett/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/cashcat/",
+      "final_url": "https://splashwallet.xyz/markets/cashcat/",
+      "status": 200,
+      "title": "CASHCAT \u2014 Splash",
+      "local_path": "/markets/cashcat/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/chillguy/",
+      "final_url": "https://splashwallet.xyz/markets/chillguy/",
+      "status": 200,
+      "title": "CHILLGUY \u2014 Splash",
+      "local_path": "/markets/chillguy/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dood/",
+      "final_url": "https://splashwallet.xyz/markets/dood/",
+      "status": 200,
+      "title": "DOOD \u2014 Splash",
+      "local_path": "/markets/dood/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/fartcoin/",
+      "final_url": "https://splashwallet.xyz/markets/fartcoin/",
+      "status": 200,
+      "title": "FARTCOIN \u2014 Splash",
+      "local_path": "/markets/fartcoin/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/goat/",
+      "final_url": "https://splashwallet.xyz/markets/goat/",
+      "status": 200,
+      "title": "GOAT \u2014 Splash",
+      "local_path": "/markets/goat/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hmstr/",
+      "final_url": "https://splashwallet.xyz/markets/hmstr/",
+      "status": 200,
+      "title": "HMSTR \u2014 Splash",
+      "local_path": "/markets/hmstr/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kbonk/",
+      "final_url": "https://splashwallet.xyz/markets/kbonk/",
+      "status": 200,
+      "title": "kBONK \u2014 Splash",
+      "local_path": "/markets/kbonk/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kfloki/",
+      "final_url": "https://splashwallet.xyz/markets/kfloki/",
+      "status": 200,
+      "title": "kFLOKI \u2014 Splash",
+      "local_path": "/markets/kfloki/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kneiro/",
+      "final_url": "https://splashwallet.xyz/markets/kneiro/",
+      "status": 200,
+      "title": "kNEIRO \u2014 Splash",
+      "local_path": "/markets/kneiro/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kpepe/",
+      "final_url": "https://splashwallet.xyz/markets/kpepe/",
+      "status": 200,
+      "title": "kPEPE \u2014 Splash",
+      "local_path": "/markets/kpepe/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/kshib/",
+      "final_url": "https://splashwallet.xyz/markets/kshib/",
+      "status": 200,
+      "title": "kSHIB \u2014 Splash",
+      "local_path": "/markets/kshib/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/melania/",
+      "final_url": "https://splashwallet.xyz/markets/melania/",
+      "status": 200,
+      "title": "MELANIA \u2014 Splash",
+      "local_path": "/markets/melania/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/meme/",
+      "final_url": "https://splashwallet.xyz/markets/meme/",
+      "status": 200,
+      "title": "MEME \u2014 Splash",
+      "local_path": "/markets/meme/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/moodeng/",
+      "final_url": "https://splashwallet.xyz/markets/moodeng/",
+      "status": 200,
+      "title": "MOODENG \u2014 Splash",
+      "local_path": "/markets/moodeng/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pengu/",
+      "final_url": "https://splashwallet.xyz/markets/pengu/",
+      "status": 200,
+      "title": "PENGU \u2014 Splash",
+      "local_path": "/markets/pengu/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pnut/",
+      "final_url": "https://splashwallet.xyz/markets/pnut/",
+      "status": 200,
+      "title": "PNUT \u2014 Splash",
+      "local_path": "/markets/pnut/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/popcat/",
+      "final_url": "https://splashwallet.xyz/markets/popcat/",
+      "status": 200,
+      "title": "POPCAT \u2014 Splash",
+      "local_path": "/markets/popcat/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/purr/",
+      "final_url": "https://splashwallet.xyz/markets/purr/",
+      "status": 200,
+      "title": "PURR \u2014 Splash",
+      "local_path": "/markets/purr/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/purr-spot/",
+      "final_url": "https://splashwallet.xyz/markets/purr-spot/",
+      "status": 200,
+      "title": "PURR \u2014 Splash",
+      "local_path": "/markets/purr-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/spx-crypto/",
+      "final_url": "https://splashwallet.xyz/markets/spx-crypto/",
+      "status": 200,
+      "title": "SPX \u2014 Splash",
+      "local_path": "/markets/spx-crypto/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/trump/",
+      "final_url": "https://splashwallet.xyz/markets/trump/",
+      "status": 200,
+      "title": "TRUMP \u2014 Splash",
+      "local_path": "/markets/trump/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/turbo/",
+      "final_url": "https://splashwallet.xyz/markets/turbo/",
+      "status": 200,
+      "title": "TURBO \u2014 Splash",
+      "local_path": "/markets/turbo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ubonk-spot/",
+      "final_url": "https://splashwallet.xyz/markets/ubonk-spot/",
+      "status": 200,
+      "title": "BONK \u2014 Splash",
+      "local_path": "/markets/ubonk-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ufart-spot/",
+      "final_url": "https://splashwallet.xyz/markets/ufart-spot/",
+      "status": 200,
+      "title": "FARTCOIN \u2014 Splash",
+      "local_path": "/markets/ufart-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/upump-spot/",
+      "final_url": "https://splashwallet.xyz/markets/upump-spot/",
+      "status": 200,
+      "title": "PUMP \u2014 Splash",
+      "local_path": "/markets/upump-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/vine/",
+      "final_url": "https://splashwallet.xyz/markets/vine/",
+      "status": 200,
+      "title": "VINE \u2014 Splash",
+      "local_path": "/markets/vine/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/wif/",
+      "final_url": "https://splashwallet.xyz/markets/wif/",
+      "status": 200,
+      "title": "WIF \u2014 Splash",
+      "local_path": "/markets/wif/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/aave/",
+      "final_url": "https://splashwallet.xyz/markets/aave/",
+      "status": 200,
+      "title": "Aave \u2014 Splash",
+      "local_path": "/markets/aave/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/aero/",
+      "final_url": "https://splashwallet.xyz/markets/aero/",
+      "status": 200,
+      "title": "AERO \u2014 Splash",
+      "local_path": "/markets/aero/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/cake/",
+      "final_url": "https://splashwallet.xyz/markets/cake/",
+      "status": 200,
+      "title": "CAKE \u2014 Splash",
+      "local_path": "/markets/cake/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/comp/",
+      "final_url": "https://splashwallet.xyz/markets/comp/",
+      "status": 200,
+      "title": "COMP \u2014 Splash",
+      "local_path": "/markets/comp/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/crv/",
+      "final_url": "https://splashwallet.xyz/markets/crv/",
+      "status": 200,
+      "title": "CRV \u2014 Splash",
+      "local_path": "/markets/crv/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dydx/",
+      "final_url": "https://splashwallet.xyz/markets/dydx/",
+      "status": 200,
+      "title": "DYDX \u2014 Splash",
+      "local_path": "/markets/dydx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/eigen/",
+      "final_url": "https://splashwallet.xyz/markets/eigen/",
+      "status": 200,
+      "title": "EIGEN \u2014 Splash",
+      "local_path": "/markets/eigen/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ena/",
+      "final_url": "https://splashwallet.xyz/markets/ena/",
+      "status": 200,
+      "title": "ENA \u2014 Splash",
+      "local_path": "/markets/ena/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ens/",
+      "final_url": "https://splashwallet.xyz/markets/ens/",
+      "status": 200,
+      "title": "ENS \u2014 Splash",
+      "local_path": "/markets/ens/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ethfi/",
+      "final_url": "https://splashwallet.xyz/markets/ethfi/",
+      "status": 200,
+      "title": "ETHFI \u2014 Splash",
+      "local_path": "/markets/ethfi/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/gmx/",
+      "final_url": "https://splashwallet.xyz/markets/gmx/",
+      "status": 200,
+      "title": "GMX \u2014 Splash",
+      "local_path": "/markets/gmx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/inj/",
+      "final_url": "https://splashwallet.xyz/markets/inj/",
+      "status": 200,
+      "title": "INJ \u2014 Splash",
+      "local_path": "/markets/inj/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/jto/",
+      "final_url": "https://splashwallet.xyz/markets/jto/",
+      "status": 200,
+      "title": "JTO \u2014 Splash",
+      "local_path": "/markets/jto/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/jup/",
+      "final_url": "https://splashwallet.xyz/markets/jup/",
+      "status": 200,
+      "title": "JUP \u2014 Splash",
+      "local_path": "/markets/jup/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ldo/",
+      "final_url": "https://splashwallet.xyz/markets/ldo/",
+      "status": 200,
+      "title": "LDO \u2014 Splash",
+      "local_path": "/markets/ldo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/link/",
+      "final_url": "https://splashwallet.xyz/markets/link/",
+      "status": 200,
+      "title": "Chainlink \u2014 Splash",
+      "local_path": "/markets/link/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/morpho/",
+      "final_url": "https://splashwallet.xyz/markets/morpho/",
+      "status": 200,
+      "title": "MORPHO \u2014 Splash",
+      "local_path": "/markets/morpho/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ondo/",
+      "final_url": "https://splashwallet.xyz/markets/ondo/",
+      "status": 200,
+      "title": "ONDO \u2014 Splash",
+      "local_path": "/markets/ondo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pendle/",
+      "final_url": "https://splashwallet.xyz/markets/pendle/",
+      "status": 200,
+      "title": "PENDLE \u2014 Splash",
+      "local_path": "/markets/pendle/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pyth/",
+      "final_url": "https://splashwallet.xyz/markets/pyth/",
+      "status": 200,
+      "title": "PYTH \u2014 Splash",
+      "local_path": "/markets/pyth/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/rune/",
+      "final_url": "https://splashwallet.xyz/markets/rune/",
+      "status": 200,
+      "title": "RUNE \u2014 Splash",
+      "local_path": "/markets/rune/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sky/",
+      "final_url": "https://splashwallet.xyz/markets/sky/",
+      "status": 200,
+      "title": "SKY \u2014 Splash",
+      "local_path": "/markets/sky/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/snx/",
+      "final_url": "https://splashwallet.xyz/markets/snx/",
+      "status": 200,
+      "title": "SNX \u2014 Splash",
+      "local_path": "/markets/snx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sushi/",
+      "final_url": "https://splashwallet.xyz/markets/sushi/",
+      "status": 200,
+      "title": "SUSHI \u2014 Splash",
+      "local_path": "/markets/sushi/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/uma/",
+      "final_url": "https://splashwallet.xyz/markets/uma/",
+      "status": 200,
+      "title": "UMA \u2014 Splash",
+      "local_path": "/markets/uma/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/uni/",
+      "final_url": "https://splashwallet.xyz/markets/uni/",
+      "status": 200,
+      "title": "UNI \u2014 Splash",
+      "local_path": "/markets/uni/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usual/",
+      "final_url": "https://splashwallet.xyz/markets/usual/",
+      "status": 200,
+      "title": "USUAL \u2014 Splash",
+      "local_path": "/markets/usual/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/w/",
+      "final_url": "https://splashwallet.xyz/markets/w/",
+      "status": 200,
+      "title": "W \u2014 Splash",
+      "local_path": "/markets/w/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/algo/",
+      "final_url": "https://splashwallet.xyz/markets/algo/",
+      "status": 200,
+      "title": "ALGO \u2014 Splash",
+      "local_path": "/markets/algo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bch/",
+      "final_url": "https://splashwallet.xyz/markets/bch/",
+      "status": 200,
+      "title": "BCH \u2014 Splash",
+      "local_path": "/markets/bch/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bera/",
+      "final_url": "https://splashwallet.xyz/markets/bera/",
+      "status": 200,
+      "title": "BERA \u2014 Splash",
+      "local_path": "/markets/bera/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/celo/",
+      "final_url": "https://splashwallet.xyz/markets/celo/",
+      "status": 200,
+      "title": "CELO \u2014 Splash",
+      "local_path": "/markets/celo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/dash/",
+      "final_url": "https://splashwallet.xyz/markets/dash/",
+      "status": 200,
+      "title": "DASH \u2014 Splash",
+      "local_path": "/markets/dash/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/etc/",
+      "final_url": "https://splashwallet.xyz/markets/etc/",
+      "status": 200,
+      "title": "ETC \u2014 Splash",
+      "local_path": "/markets/etc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/fil/",
+      "final_url": "https://splashwallet.xyz/markets/fil/",
+      "status": 200,
+      "title": "FIL \u2014 Splash",
+      "local_path": "/markets/fil/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/hbar/",
+      "final_url": "https://splashwallet.xyz/markets/hbar/",
+      "status": 200,
+      "title": "HBAR \u2014 Splash",
+      "local_path": "/markets/hbar/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/icp/",
+      "final_url": "https://splashwallet.xyz/markets/icp/",
+      "status": 200,
+      "title": "ICP \u2014 Splash",
+      "local_path": "/markets/icp/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/iota/",
+      "final_url": "https://splashwallet.xyz/markets/iota/",
+      "status": 200,
+      "title": "IOTA \u2014 Splash",
+      "local_path": "/markets/iota/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ltc/",
+      "final_url": "https://splashwallet.xyz/markets/ltc/",
+      "status": 200,
+      "title": "LTC \u2014 Splash",
+      "local_path": "/markets/ltc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mina/",
+      "final_url": "https://splashwallet.xyz/markets/mina/",
+      "status": 200,
+      "title": "MINA \u2014 Splash",
+      "local_path": "/markets/mina/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/mon/",
+      "final_url": "https://splashwallet.xyz/markets/mon/",
+      "status": 200,
+      "title": "MON \u2014 Splash",
+      "local_path": "/markets/mon/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/neo/",
+      "final_url": "https://splashwallet.xyz/markets/neo/",
+      "status": 200,
+      "title": "NEO \u2014 Splash",
+      "local_path": "/markets/neo/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/s/",
+      "final_url": "https://splashwallet.xyz/markets/s/",
+      "status": 200,
+      "title": "S \u2014 Splash",
+      "local_path": "/markets/s/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sei/",
+      "final_url": "https://splashwallet.xyz/markets/sei/",
+      "status": 200,
+      "title": "SEI \u2014 Splash",
+      "local_path": "/markets/sei/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/tia/",
+      "final_url": "https://splashwallet.xyz/markets/tia/",
+      "status": 200,
+      "title": "TIA \u2014 Splash",
+      "local_path": "/markets/tia/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xlm/",
+      "final_url": "https://splashwallet.xyz/markets/xlm/",
+      "status": 200,
+      "title": "XLM \u2014 Splash",
+      "local_path": "/markets/xlm/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/xmr/",
+      "final_url": "https://splashwallet.xyz/markets/xmr/",
+      "status": 200,
+      "title": "XMR \u2014 Splash",
+      "local_path": "/markets/xmr/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/zec/",
+      "final_url": "https://splashwallet.xyz/markets/zec/",
+      "status": 200,
+      "title": "ZEC \u2014 Splash",
+      "local_path": "/markets/zec/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/arb/",
+      "final_url": "https://splashwallet.xyz/markets/arb/",
+      "status": 200,
+      "title": "ARB \u2014 Splash",
+      "local_path": "/markets/arb/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/blast/",
+      "final_url": "https://splashwallet.xyz/markets/blast/",
+      "status": 200,
+      "title": "BLAST \u2014 Splash",
+      "local_path": "/markets/blast/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/imx/",
+      "final_url": "https://splashwallet.xyz/markets/imx/",
+      "status": 200,
+      "title": "IMX \u2014 Splash",
+      "local_path": "/markets/imx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/linea/",
+      "final_url": "https://splashwallet.xyz/markets/linea/",
+      "status": 200,
+      "title": "LINEA \u2014 Splash",
+      "local_path": "/markets/linea/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/manta/",
+      "final_url": "https://splashwallet.xyz/markets/manta/",
+      "status": 200,
+      "title": "MANTA \u2014 Splash",
+      "local_path": "/markets/manta/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/op/",
+      "final_url": "https://splashwallet.xyz/markets/op/",
+      "status": 200,
+      "title": "OP \u2014 Splash",
+      "local_path": "/markets/op/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/pol/",
+      "final_url": "https://splashwallet.xyz/markets/pol/",
+      "status": 200,
+      "title": "POL \u2014 Splash",
+      "local_path": "/markets/pol/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/strk/",
+      "final_url": "https://splashwallet.xyz/markets/strk/",
+      "status": 200,
+      "title": "STRK \u2014 Splash",
+      "local_path": "/markets/strk/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/stx/",
+      "final_url": "https://splashwallet.xyz/markets/stx/",
+      "status": 200,
+      "title": "STX \u2014 Splash",
+      "local_path": "/markets/stx/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/zk/",
+      "final_url": "https://splashwallet.xyz/markets/zk/",
+      "status": 200,
+      "title": "ZK \u2014 Splash",
+      "local_path": "/markets/zk/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/zro/",
+      "final_url": "https://splashwallet.xyz/markets/zro/",
+      "status": 200,
+      "title": "ZRO \u2014 Splash",
+      "local_path": "/markets/zro/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/axs/",
+      "final_url": "https://splashwallet.xyz/markets/axs/",
+      "status": 200,
+      "title": "AXS \u2014 Splash",
+      "local_path": "/markets/axs/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/bigtime/",
+      "final_url": "https://splashwallet.xyz/markets/bigtime/",
+      "status": 200,
+      "title": "BIGTIME \u2014 Splash",
+      "local_path": "/markets/bigtime/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/gala/",
+      "final_url": "https://splashwallet.xyz/markets/gala/",
+      "status": 200,
+      "title": "GALA \u2014 Splash",
+      "local_path": "/markets/gala/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/nxpc/",
+      "final_url": "https://splashwallet.xyz/markets/nxpc/",
+      "status": 200,
+      "title": "NXPC \u2014 Splash",
+      "local_path": "/markets/nxpc/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/sand/",
+      "final_url": "https://splashwallet.xyz/markets/sand/",
+      "status": 200,
+      "title": "SAND \u2014 Splash",
+      "local_path": "/markets/sand/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/super/",
+      "final_url": "https://splashwallet.xyz/markets/super/",
+      "status": 200,
+      "title": "SUPER \u2014 Splash",
+      "local_path": "/markets/super/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/ygg/",
+      "final_url": "https://splashwallet.xyz/markets/ygg/",
+      "status": 200,
+      "title": "YGG \u2014 Splash",
+      "local_path": "/markets/ygg/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/feusd-spot/",
+      "final_url": "https://splashwallet.xyz/markets/feusd-spot/",
+      "status": 200,
+      "title": "FEUSD \u2014 Splash",
+      "local_path": "/markets/feusd-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usde-spot/",
+      "final_url": "https://splashwallet.xyz/markets/usde-spot/",
+      "status": 200,
+      "title": "USDE \u2014 Splash",
+      "local_path": "/markets/usde-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usdh-spot/",
+      "final_url": "https://splashwallet.xyz/markets/usdh-spot/",
+      "status": 200,
+      "title": "USDH \u2014 Splash",
+      "local_path": "/markets/usdh-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usdhl-spot/",
+      "final_url": "https://splashwallet.xyz/markets/usdhl-spot/",
+      "status": 200,
+      "title": "USDHL \u2014 Splash",
+      "local_path": "/markets/usdhl-spot/"
+    },
+    {
+      "url": "https://splashwallet.xyz/markets/usdt0-spot/",
+      "final_url": "https://splashwallet.xyz/markets/usdt0-spot/",
+      "status": 200,
+      "title": "USDT0 \u2014 Splash",
+      "local_path": "/markets/usdt0-spot/"
+    }
+  ],
+  "assets_fetched": 545,
+  "failures": [
+    {
+      "url": "https://splashwallet.xyz/static/chunks/0gpbspnb7-l_u.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/0gpbspnb7-l_u.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/14x-gv6879ywq.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/14x-gv6879ywq.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/1pcw6gskne7pf.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/1pcw6gskne7pf.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/2whg2n5r_t_s1.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/2whg2n5r_t_s1.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/034gvnfhvwtkg.css",
+      "status": 404,
+      "available_at": "/_next/static/chunks/034gvnfhvwtkg.css"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/13-t_3rzkootc.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/13-t_3rzkootc.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/2c5xf166t3uc-.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/2c5xf166t3uc-.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/2kqxda00vmze3.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/2kqxda00vmze3.js"
+    },
+    {
+      "url": "https://splashwallet.xyz/static/chunks/2tv4c45n1gwef.js",
+      "status": 404,
+      "available_at": "/_next/static/chunks/2tv4c45n1gwef.js"
+    }
+  ],
+  "skipped": [],
+  "external_hosts": [],
+  "supplemental_assets": [
+    "/_next/static/chunks/13-t_3rzkootc.js",
+    "/_next/static/chunks/2kqxda00vmze3.js",
+    "/_optimized/home/markets/amd.png__w256.webp",
+    "/_optimized/home/markets/amd.png__w32.webp",
+    "/_optimized/home/markets/amd.png__w64.webp",
+    "/_optimized/home/markets/amd.png__w96.webp",
+    "/_optimized/home/markets/amzn.png__w32.webp",
+    "/_optimized/home/markets/amzn.png__w64.webp",
+    "/_optimized/home/markets/coin.png__w256.webp",
+    "/_optimized/home/markets/coin.png__w32.webp",
+    "/_optimized/home/markets/coin.png__w64.webp",
+    "/_optimized/home/markets/coin.png__w96.webp",
+    "/_optimized/home/markets/googl.png__w256.webp",
+    "/_optimized/home/markets/googl.png__w32.webp",
+    "/_optimized/home/markets/googl.png__w64.webp",
+    "/_optimized/home/markets/googl.png__w96.webp",
+    "/_optimized/home/markets/hood.png__w256.webp",
+    "/_optimized/home/markets/hood.png__w32.webp",
+    "/_optimized/home/markets/hood.png__w64.webp",
+    "/_optimized/home/markets/hood.png__w96.webp",
+    "/_optimized/home/markets/jp225.png__w32.webp",
+    "/_optimized/home/markets/jp225.png__w64.webp",
+    "/_optimized/home/markets/kr200.png__w256.webp",
+    "/_optimized/home/markets/kr200.png__w96.webp",
+    "/_optimized/home/markets/meta.png__w256.webp",
+    "/_optimized/home/markets/meta.png__w32.webp",
+    "/_optimized/home/markets/meta.png__w64.webp",
+    "/_optimized/home/markets/meta.png__w96.webp",
+    "/_optimized/home/markets/nflx.png__w256.webp",
+    "/_optimized/home/markets/nflx.png__w32.webp",
+    "/_optimized/home/markets/nflx.png__w64.webp",
+    "/_optimized/home/markets/nflx.png__w96.webp",
+    "/_optimized/home/markets/pltr.png__w256.webp",
+    "/_optimized/home/markets/pltr.png__w32.webp",
+    "/_optimized/home/markets/pltr.png__w64.webp",
+    "/_optimized/home/markets/pltr.png__w96.webp",
+    "/_optimized/markets/token-paxg.png__w32.webp",
+    "/_optimized/markets/token-paxg.png__w64.webp",
+    "/home/pnl/card-7.png",
+    "/home/product-discovery-bento-avatar-a.png",
+    "/home/product-how-trading-works-whale-a.png",
+    "/learn/featured.png"
+  ],
+  "page_failures": [],
+  "site_coverage": {
+    "route_source": "https://splashwallet.xyz/sitemap.xml",
+    "captured_page_count": 257,
+    "asset_file_count": 2534,
+    "required_asset_failures": {},
+    "unresolved_bundle_references": {},
+    "external_resource_hosts": [],
+    "external_data_services": [
+      "https://api.hyperliquid.xyz/info"
+    ],
+    "additional_documents": [
+      "/404.html"
+    ],
+    "internal_links_outside_manifest": []
+  }
+}
