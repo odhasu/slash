@@ -56,3 +56,119 @@ header a[aria-label="Slash home"] svg > *,
     display: none;
   }
 }
+
+@keyframes slash-heading-reveal {
+  from {
+    translate: 0 20px;
+    opacity: .4;
+  }
+  to {
+    translate: 0 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slash-phone-drift {
+  from {
+    translate: 0 var(--phone-start-y, 32px);
+    rotate: 0deg;
+  }
+  to {
+    translate: var(--phone-drift-x) var(--phone-end-y, -22px);
+    rotate: var(--phone-tilt);
+  }
+}
+
+@keyframes slash-card-reveal {
+  from {
+    translate: var(--card-entry-x) 14px;
+    opacity: .35;
+  }
+  to {
+    translate: 0 0;
+    opacity: 1;
+  }
+}
+
+@supports (animation-timeline: view()) and (animation-range: entry 0% cover 50%) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* Use the section's timeline so clipped artwork can follow page scroll. */
+    :is(
+      [data-section="download-band"],
+      [data-section="market-cards"],
+      [data-section="markets-ticker"],
+      [data-section="discovery"],
+      [data-section="self-custody"],
+      [data-section="closing-cta"]
+    ) {
+      view-timeline-name: --slash-section;
+    }
+
+    :is(
+      [data-section="download-band"],
+      [data-section="market-cards"],
+      [data-section="markets-ticker"],
+      [data-section="discovery"],
+      [data-section="self-custody"],
+      [data-section="closing-cta"]
+    ) h2 {
+      animation: slash-heading-reveal ease-out both;
+      animation-timeline: --slash-section;
+      animation-range: entry 0% entry 42%;
+    }
+
+    [data-section="download-band"] :is(.Hyr3QW_front, .Hyr3QW_back) {
+      animation: slash-phone-drift linear both;
+      animation-timeline: --slash-section;
+      animation-range: entry 10% cover 58%;
+    }
+
+    [data-section="download-band"] .Hyr3QW_front {
+      --phone-drift-x: -36px;
+      --phone-tilt: -3deg;
+    }
+
+    [data-section="download-band"] .Hyr3QW_back {
+      --phone-drift-x: 38px;
+      --phone-tilt: 3deg;
+    }
+
+    [data-section="self-custody"] .u2gWja_rise.min-w-0 > div {
+      --card-entry-x: -32px;
+      animation: slash-card-reveal ease-out both;
+      animation-timeline: --slash-section;
+      animation-range: entry 25% cover 36%;
+    }
+
+    [data-section="self-custody"] .u2gWja_rise.min-w-0:nth-child(even) > div {
+      --card-entry-x: 32px;
+      animation-range: entry 38% cover 48%;
+    }
+
+    @media (width < 768px) {
+      [data-section="download-band"] :is(.Hyr3QW_front, .Hyr3QW_back) {
+        --phone-start-y: 18px;
+        --phone-end-y: -10px;
+      }
+
+      [data-section="download-band"] .Hyr3QW_front {
+        --phone-drift-x: -10px;
+        --phone-tilt: -1.5deg;
+      }
+
+      [data-section="download-band"] .Hyr3QW_back {
+        --phone-drift-x: 14px;
+        --phone-tilt: 1.5deg;
+      }
+
+      [data-section="self-custody"] .u2gWja_rise.min-w-0 > div {
+        --card-entry-x: -16px;
+      }
+
+      [data-section="self-custody"] .u2gWja_rise.min-w-0:nth-child(even) > div {
+        --card-entry-x: 16px;
+        animation-range: cover 28% cover 54%;
+      }
+    }
+  }
+}
