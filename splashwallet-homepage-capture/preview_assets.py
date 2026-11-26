@@ -14,7 +14,7 @@ BRAND = re.compile(
 )
 BRAND_NAMES = {"Splash": "Slash", "splash": "slash", "SPLASH": "SLASH"}
 FAVICON = re.compile(r'/favicon\.ico(?:\?favicon\.[\w-]+\.ico)?(?=["\\])')
-FAVICON_URL = "/favicon.ico?v=3"
+FAVICON_URL = "/favicon.ico?v=4"
 LEGACY_APP = re.compile(r"https?://apps\.apple\.com/[^\s<>\"'\\]*id6746621525", re.I)
 LEGACY_SOCIAL = re.compile(r"https?://(?:x|twitter)\.com/splashos/?", re.I)
 LEGACY_EMAIL = re.compile(r"mailto:[.\w+-]+@splashwallet\.xyz", re.I)
