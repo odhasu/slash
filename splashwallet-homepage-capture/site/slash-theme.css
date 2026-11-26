@@ -1,7 +1,3 @@
-[data-section="hero"] a[href="/product/"]:has(.sr-only) {
-  display: none;
-}
-
 a[href="#contact-unavailable"],
 a[href="#social-unavailable"],
 nav[aria-label="Footer"] div:has(> a[href="#social-unavailable"]):not(:has(> a:not([href="#social-unavailable"]))) {

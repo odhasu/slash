@@ -33,16 +33,9 @@ BRANDED_SCRIPTS = frozenset({
     "42amdh4zah026.js",
 })
 MOTION_ASSETS = (
-    '<link rel="stylesheet" href="/slash-theme.css"/>'
+    '<link rel="stylesheet" href="/slash-theme.css?v=2"/>'
     '<script src="/slash-gradients.js" async=""></script>'
 )
-LEARN_GUIDE = "/learn/hyperliquid-mobile"
-DESKTOP_FAQ = re.compile(r'<li><a class="inline-block [^"]+" href="/faq/">FAQ</a></li>')
-FLIGHT_FAQ = re.compile(
-    r'null,(\["\$","li","FAQ",\{"children":\["\$","\$L[\da-f]+",null,'
-    r'\{"href":"/faq","className":"[^"]+","children":"FAQ"\}\]\}\])'
-)
-MOBILE_FAQ = '{"label":"FAQ","href":"/faq"}'
 
 
 def local_copy(source, directory):
@@ -148,30 +141,10 @@ def render_document(path, site_origin=""):
         return edit(ios_placeholder(document))
     if path.name in BRANDED_SCRIPTS:
         return edit(document)
-    home_navigation = path.name != "404.html" and path.parent in (
-        Path(__file__).resolve().parent / "site", LOCAL_ASSETS
-    )
-
-    def edit_row(row):
-        if home_navigation:
-            row = FLIGHT_FAQ.sub(
-                lambda match: match[1].replace('"FAQ"', '"Learn"').replace('"/faq"', f'"{LEARN_GUIDE}"')
-                + "," + match[1],
-                row,
-            )
-            row = row.replace(MOBILE_FAQ, f'{{"label":"Learn","href":"{LEARN_GUIDE}"}},{MOBILE_FAQ}')
-        return edit(row)
 
     if path.suffix == ".html":
         def edit_markup(markup):
-            if home_navigation:
-                markup = DESKTOP_FAQ.sub(
-                    lambda match: match[0].replace('/faq/', f'{LEARN_GUIDE}/').replace('>FAQ<', '>Learn<')
-                    + match[0],
-                    markup,
-                    count=1,
-                )
             return edit(markup).replace("</head>", MOTION_ASSETS + "</head>", 1)
 
-        return edit_flight(outside_flight(document, edit_markup), edit_row)
-    return map_rows(document, edit_row)
+        return edit_flight(outside_flight(document, edit_markup), edit)
+    return map_rows(document, edit)
