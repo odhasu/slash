@@ -101,7 +101,7 @@ class PreviewHandler(Handler):
         except OSError:
             return SimpleHTTPRequestHandler.send_head(self)
 
-        revision = "-slash14" if branded else ""
+        revision = "-slash15" if branded else ""
         etag = f'"{version[0]:x}-{version[1]:x}{revision}-{encoding or "identity"}"'
         validators = {tag.strip().removeprefix("W/") for tag in self.headers.get("If-None-Match", "").split(",")}
         if etag in validators or "*" in validators:

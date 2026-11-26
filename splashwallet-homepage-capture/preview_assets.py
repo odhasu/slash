@@ -33,7 +33,7 @@ BRANDED_SCRIPTS = frozenset({
     "42amdh4zah026.js",
 })
 MOTION_ASSETS = (
-    '<link rel="stylesheet" href="/slash-theme.css?v=3"/>'
+    '<link rel="stylesheet" href="/slash-theme.css?v=4"/>'
     '<script src="/slash-gradients.js" async=""></script>'
     '<script type="module" src="/slash-scroll.js"></script>'
 )
