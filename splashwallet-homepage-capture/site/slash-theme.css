@@ -2,6 +2,20 @@
   display: none;
 }
 
+a[href="#contact-unavailable"],
+a[href="#social-unavailable"],
+nav[aria-label="Footer"] div:has(> a[href="#social-unavailable"]):not(:has(> a:not([href="#social-unavailable"]))) {
+  display: none;
+}
+
+[role="dialog"] span[aria-disabled="true"] {
+  opacity: .6;
+}
+
+main .max-md\:hidden:has(> a[href="#ios-download"]:not([data-ios-download])) {
+  display: inline;
+}
+
 header a[aria-label="Slash home"] svg {
   background: currentColor;
   mask: url("/slash-mark.svg") center / contain no-repeat;

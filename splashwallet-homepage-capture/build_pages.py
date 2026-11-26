@@ -80,7 +80,7 @@ def build_pages(output, base_path, origin):
         target = output / path
         target.parent.mkdir(parents=True, exist_ok=True)
         if file.suffix in TEXT_ASSETS or needs_branding(file):
-            document = render_document(source) if needs_branding(file) else source.read_text()
+            document = render_document(source, hosted_origin) if needs_branding(file) else source.read_text()
             if file.suffix == ".html":
                 document = edit_flight(outside_flight(document, page_urls), flight_row)
             elif file.suffix == ".js":

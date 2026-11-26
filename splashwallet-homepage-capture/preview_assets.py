@@ -14,6 +14,11 @@ BRAND = re.compile(
 )
 BRAND_NAMES = {"Splash": "Slash", "splash": "slash", "SPLASH": "SLASH"}
 FAVICON = re.compile(r'<link\b[^>]*rel="icon"[^>]*>')
+LEGACY_APP = re.compile(r"https?://apps\.apple\.com/[^\s<>\"'\\]*id6746621525", re.I)
+LEGACY_SOCIAL = re.compile(r"https?://(?:x|twitter)\.com/splashos/?", re.I)
+LEGACY_EMAIL = re.compile(r"mailto:[.\w+-]+@splashwallet\.xyz", re.I)
+LEGACY_ADDRESS = re.compile(r"\b[.\w+-]+@splashwallet\.xyz\b", re.I)
+LEGACY_SITE = re.compile(r"https?://(?:www\.)?(?:splashwallet\.xyz|splash\.bid)(?:/|\b)", re.I)
 BRANDED_SCRIPTS = frozenset({
     "033wdq8jol78t.js",
     "0mazxsj6_f611.js",
@@ -79,14 +84,64 @@ def rename_brand(text):
     return BRAND.sub(lambda match: BRAND_NAMES[match[0]], text)
 
 
-def render_document(path):
+def remove_legacy_destinations(text, site_origin):
+    text = LEGACY_APP.sub("#ios-download", text)
+    text = LEGACY_SOCIAL.sub("#social-unavailable", text)
+    text = LEGACY_EMAIL.sub("#contact-unavailable", text)
+    text = LEGACY_ADDRESS.sub("Contact unavailable", text)
+    text = text.replace("https://prod.splashwallet.xyz/categories", site_origin + "/markets/")
+    text = LEGACY_SITE.sub(site_origin + "/", text)
+    text = text.replace("Get Splash on the App Store", "Check iOS availability")
+    text = text.replace("Get Splash for iOS", "Check iOS availability")
+    text = text.replace("Splash is free on iPhone. Android coming soon.", "Slash for iOS and Android is coming soon.")
+    return re.sub(r"\b(?:splashwallet\.xyz|splash\.bid)\b", "this website", text, flags=re.I)
+
+
+def ios_placeholder(script):
+    old_qr = (
+        '(0,l.jsx)(R,{value:t,title:"Scan to open Splash in the App Store",role:"img",size:260,'
+        'marginSize:4,level:"M",bgColor:"#FFFFFF",fgColor:"#0F0800",className:e})'
+    )
+    new_qr = (
+        '(0,l.jsx)("img",{src:"/slash-preview-qr.svg",alt:"",width:260,height:260,'
+        'className:e})'
+    )
+    old_open = (
+        '()=>{/iPad|iPhone|iPod/.test(navigator.userAgent)||"MacIntel"===navigator.platform'
+        '&&navigator.maxTouchPoints>1?window.location.assign(r??n.X):s(!0)},[r]'
+    )
+    for old, new in (
+        (old_qr, new_qr),
+        (old_open, '()=>s(!0),[]'),
+        ('a[data-ios-download], a[href="${i}"]', 'a[data-ios-download], a[href="#ios-download"], a[href="${i}"]'),
+        (
+            """!t||t.closest('[role="dialog"]')||(e.preventDefault(),o())""",
+            """if(t){e.preventDefault();t.closest('[role="dialog"]')?.querySelector('button[aria-label="Close"]')?.click();o()}""",
+        ),
+        ('"Scan the QR code to get Splash."', '"Slash for iOS is coming soon."'),
+        ('"Already on your phone?"', '"Check back here for iOS availability."'),
+        ('(0,t.jsxs)("a",{href:l,onClick:r,className:', '(0,t.jsxs)("span",{"aria-disabled":true,className:'),
+        ('"Download for iOS"', '"Coming soon"'),
+    ):
+        if script.count(old) != 1:
+            raise ValueError("Unexpected QR modal bundle. Update the iOS placeholder replacements.")
+        script = script.replace(old, new, 1)
+    return script
+
+
+def render_document(path, site_origin=""):
     document = path.read_text()
+    def edit(text):
+        return rename_brand(remove_legacy_destinations(text, site_origin))
+
+    if path.name == "1cjwn-_bnfxk1.js":
+        return edit(ios_placeholder(document))
     if path.name in BRANDED_SCRIPTS:
-        return rename_brand(document)
+        return edit(document)
     if path.suffix == ".html":
         def edit_markup(markup):
             markup = FAVICON.sub('<link rel="icon" href="/slash-mark.svg" type="image/svg+xml"/>', markup)
-            return rename_brand(markup).replace("</head>", MOTION_ASSETS + "</head>", 1)
+            return edit(markup).replace("</head>", MOTION_ASSETS + "</head>", 1)
 
-        return edit_flight(outside_flight(document, edit_markup), rename_brand)
-    return map_rows(document, rename_brand)
+        return edit_flight(outside_flight(document, edit_markup), edit)
+    return map_rows(document, edit)
