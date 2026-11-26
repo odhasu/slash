@@ -35,7 +35,6 @@ BRANDED_SCRIPTS = frozenset({
 MOTION_ASSETS = (
     '<link rel="stylesheet" href="/slash-theme.css"/>'
     '<script src="/slash-gradients.js" async=""></script>'
-    '<script src="/slash-scroll.js" defer=""></script>'
 )
 LEARN_GUIDE = "/learn/hyperliquid-mobile"
 DESKTOP_FAQ = re.compile(r'<li><a class="inline-block [^"]+" href="/faq/">FAQ</a></li>')
