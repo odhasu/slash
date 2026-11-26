@@ -13,7 +13,8 @@ BRAND = re.compile(
     r"(?<![\w./@#-])(?:Splash|splash|SPLASH)(?![\w/-]|:[A-Za-z/]|\.[A-Za-z0-9])"
 )
 BRAND_NAMES = {"Splash": "Slash", "splash": "slash", "SPLASH": "SLASH"}
-FAVICON = re.compile(r'<link\b[^>]*rel="icon"[^>]*>')
+FAVICON = re.compile(r'/favicon\.ico(?:\?favicon\.[\w-]+\.ico)?(?=["\\])')
+FAVICON_URL = "/favicon.ico?v=2"
 LEGACY_APP = re.compile(r"https?://apps\.apple\.com/[^\s<>\"'\\]*id6746621525", re.I)
 LEGACY_SOCIAL = re.compile(r"https?://(?:x|twitter)\.com/splashos/?", re.I)
 LEGACY_EMAIL = re.compile(r"mailto:[.\w+-]+@splashwallet\.xyz", re.I)
@@ -133,6 +134,7 @@ def ios_placeholder(script):
 def render_document(path, site_origin=""):
     document = path.read_text()
     def edit(text):
+        text = FAVICON.sub(FAVICON_URL, text)
         return rename_brand(remove_legacy_destinations(text, site_origin))
 
     if path.name == "1cjwn-_bnfxk1.js":
@@ -141,7 +143,6 @@ def render_document(path, site_origin=""):
         return edit(document)
     if path.suffix == ".html":
         def edit_markup(markup):
-            markup = FAVICON.sub('<link rel="icon" href="/slash-mark.svg" type="image/svg+xml"/>', markup)
             return edit(markup).replace("</head>", MOTION_ASSETS + "</head>", 1)
 
         return edit_flight(outside_flight(document, edit_markup), edit)

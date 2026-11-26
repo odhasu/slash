@@ -19,7 +19,6 @@ SOURCE = Path(__file__).resolve().parent / "site"
 CAPTURE_ORIGIN = "https://splashwallet.xyz"
 TEXT_ASSETS = {".css", ".js", ".mjs", ".xml"}
 ROOT_LINK = re.compile(r'(\bhref="|\\"href\\":\\"|"href":")/(?=\\?")')
-FLIGHT_FAVICON = re.compile(r'("href":")/favicon\.ico[^"]*(")')
 
 
 def replace_once(text, old, new, filename):
@@ -46,7 +45,6 @@ def build_pages(output, base_path, origin):
         return text.replace(CAPTURE_ORIGIN + "/", hosted_origin + "/")
 
     def flight_row(row):
-        row = FLIGHT_FAVICON.sub(r'\1/slash-mark.svg\2', row)
         if row.startswith('0:{"P":null,"c":["",'):
             row = row.replace('"c":["",', f'"c":["",{json.dumps(base_path[1:])},', 1)
         return page_urls(row)
